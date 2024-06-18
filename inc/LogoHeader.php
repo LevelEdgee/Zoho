@@ -1,4 +1,4 @@
-<a?php
+<?php
 // Include the content of about.php
 
 ?>
@@ -144,135 +144,12 @@
                 </span>
             </a>
 
-            <!-- End Logo container-->
-            <div class="menu-extras">
-                <div class="menu-item">
-                    <!-- Mobile menu toggle-->
-                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
-                        <div class="lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </a>
-                    <!-- End mobile menu toggle-->
-                </div>
-            </div>
-
-
-
             <div id="navigation">
                 <!-- Navigation Menu-->
                 <ul class="navigation-menu nav-light">
-                    <li><a href="index.html" class="sub-menu-item">Home</a></li>
-
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">Solutions</a><span class="menu-arrow"></span>
-
-                        <ul class="submenu megamenu">
-                            <li>
-                                <ul>
-                                    <li><a href="index-saas.html" class="sub-menu-item">Sales & Marketing </a></li>
-                                    <li><a href="index-classic-saas.html" class="sub-menu-item">Email & Collaboration
-                                        </a></li>
-
-                                </ul>
-                            </li>
-
-                            <li>
-                                <ul>
-                                    <li><a href="index-it-solution.html" class="sub-menu-item">Finance</a></li>
-                                    <li><a href="index-it-solution-two.html" class="sub-menu-item">Leagal</a></li>
-
-                                </ul>
-                            </li>
-
-                            <li>
-                                <ul>
-                                    <li><a href="index-startup.html" class="sub-menu-item">BI & Analytics</a></li>
-                                    <li><a href="index-business.html" class="sub-menu-item">Project Management</a></li>
-
-                                </ul>
-                            </li>
-
-                            <li>
-                                <ul>
-                                    <li><a href="index-personal.html" class="sub-menu-item">Developer Platform</a></li>
-                                    <li><a href="index-portfolio.html" class="sub-menu-item">Customer Support</a></li>
-
-                                </ul>
-                            </li>
-
-                            <li>
-                                <ul>
-                                    <li><a href="index-crypto.html" class="sub-menu-item">Human Resource </a></li>
-
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-
-
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">Industries</a><span class="menu-arrow"></span>
-                        <ul class="submenu megamenu">
-                            <li>
-                                <ul>
-
-                                    <li><a href="portfolio-modern-two.html" class="sub-menu-item">Two Column</a></li>
-                                    <li><a href="portfolio-modern-three.html" class="sub-menu-item">Three Column</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-
-                            <li>
-                                <ul>
-                                    <li><a href="portfolio-classic-two.html" class="sub-menu-item">Two Column</a></li>
-                                    <li><a href="portfolio-classic-three.html" class="sub-menu-item">Three Column</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-
-                            <li>
-                                <ul>
-
-                                    <li><a href="portfolio-creative-two.html" class="sub-menu-item">Two Column</a></li>
-                                    <li><a href="portfolio-creative-three.html" class="sub-menu-item">Three Column</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-
-                            <li>
-                                <ul>
-
-                                    <li><a href="portfolio-masonry-two.html" class="sub-menu-item">Two Column</a></li>
-                                    <li><a href="portfolio-masonry-three.html" class="sub-menu-item">Three Column</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-
-                            <li>
-                                <ul>
-                                    <li><a href="portfolio-detail-one.html" class="sub-menu-item">Portfolio One</a></li>
-                                    <li><a href="portfolio-detail-two.html" class="sub-menu-item">Portfolio Two</a></li>
-
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-
-
-
-                    <li><a href="contact-one.html" class="sub-menu-item">Contact</a></li>
                     <div class="button-container">
-                  
+                    <button class="nav-button" onclick="window.location.href='https://wa.me/8356941131'">Get Started</button>
 
-                        <a href="https://wa.me/8356941131" class="nav-button">Get Started</a>
-                        
                     </div>
 
 

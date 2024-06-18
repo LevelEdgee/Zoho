@@ -3830,6 +3830,12 @@ print and (-ms-high-contrast:none) {
     --tw-text-opacity: 1 !important;
     color: rgb(220 38 38 / var(--tw-text-opacity)) !important
 }
+.text-yellow-custom {
+    --tw-text-opacity: 1 !important;
+    color: rgb(249 178 29 / var(--tw-text-opacity)) !important;
+}
+
+
 
 .text-red-600\/20 {
     color: rgb(220 38 38 / .2) !important
@@ -4282,6 +4288,7 @@ h6 {
 
 #topnav .logo .l-light {
     display: inline-block
+    
 }
 
 #topnav .logo:focus {
@@ -8293,7 +8300,7 @@ html[dir=rtl] .tns-visually-hidden {
 }
 
 :is(.dark .dark\:hover\:shadow-gray-800:hover) {
-    --tw-shadow-color: #1f2937 !important;
+    --tw-shadow-color: #000000 !important;
     --tw-shadow: var(--tw-shadow-colored) !important
 }
 
