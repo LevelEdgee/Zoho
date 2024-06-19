@@ -60,7 +60,7 @@
 <body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
 
 <!-- Start Section-->
-<section class="relative md:py-24 py-16">
+<div class="relative md:py-24 py-16">
     <div class="container">
         <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px] relative">
             <div class="lg:col-span-8 md:col-span-12">
@@ -159,7 +159,7 @@
             <div class="overflow-hidden after:content-[''] after:absolute after:h-[512px] after:w-[512px] after:bg-indigo-600/5 after:top-1/4 after:end-0 after:-z-1 after:rounded-full"></div>
         </div><!--grid-->
     </div><!--end container-->
-</section><!--end section-->
+    </div><!--end section-->
 <!-- End Section-->
 
 <!-- JAVASCRIPTS -->

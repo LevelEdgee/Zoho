@@ -14,9 +14,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico" />
-
-    <!-- Css -->
     <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
     <link href="assets/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet">
     <!-- Main Css -->
@@ -74,7 +71,7 @@
 
 <body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
     <!-- Start -->
-    <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800">
+    <div class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800">
         <div class="container">
             <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
                 <div class="lg:col-span-7 md:col-span-6">
@@ -84,7 +81,7 @@
                         <p class="custom-heading  max-w-xl mb-2 custom-paragraph">Experience the breadth and depth of the Zoho ecosystem, with the professional services, infrastructure, support, and security that a large business needs. Streamline complex business processes, build strong relationships with your customers, and drive growth at scale.</p>
                         <p class="custom-heading  max-w-xl mb-2 custom-paragraph">We are THE ZOHO EXPERTS, who understand your business needs. No matter where you are in your Zoho journey – whether you are thinking about changing from a legacy business application or adopting Zoho for the first time or trying to improve your current Zoho setup – we are here to help !!.</p>
                         <div class="mt-6">
-                        <a href="https://wa.me/8356941131" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-3">Contact us<i class="mdi mdi-chevron-right align-middle"></i></a>   
+                            <a href="https://wa.me/8356941131" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-3">Contact us<i class="mdi mdi-chevron-right align-middle"></i></a>   
                         </div>
                     </div>
                 </div>
@@ -97,13 +94,9 @@
             </div><!--end grid-->
         </div><!--end container-->
 
-        <div class="container mt-12">
-            <div class="grid grid-cols-2 md:grid-cols-4">
-                <!-- Counter boxes go here -->
-            </div><!--end grid-->
-        </div><!--end container-->
+      
 
-    </section><!--end section-->
+    </div><!--end div instead of section-->
 
 </body>
 

@@ -71,7 +71,7 @@
 
     /* Updated font style for h1 */
     .hero-section h1 {
-      font-size: 3.2rem; /* Adjust font size */
+      font-size: 2.8rem; /* Adjust font size */
       font-weight: bold; /* Increase font weight */
       font-style:"Jost", sans-serif;
       color: #FFFFFF; /* Text color */
@@ -108,8 +108,8 @@
           <p class="text-white/60 text-lg max-w-xl">From handling your account setup to customizations, you can
           now get onboarded to Zoho services without breaking a sweat.</p>                
           <div class="mt-6 cta-container">
-  <a href="https://wa.me/8356941131" class="btn bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700 rounded-md me-2 mt-2"><i class="uil uil-envelope"></i> Contact us</a>
-  <a href="https://wa.me/8356941131" class="btn bg-transparent dark:bg-slate-900 border-2 border-white text-white dark:border-gray-700 dark:hover:border-gray-700 rounded-md me-2 mt-2"> Get Started</a>
+  <a href="https://wa.me/+91 83569 41131" class="btn bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700 rounded-md me-2 mt-2"><i class="uil uil-envelope"></i> Contact us</a>
+  <a href="https://wa.me/+91 83569 41131" class="btn bg-transparent dark:bg-slate-900 border-2 border-white text-white dark:border-gray-700 dark:hover:border-gray-700 rounded-md me-2 mt-2"> Get Started</a>
 </div>
          
         </div>

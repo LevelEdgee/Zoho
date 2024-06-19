@@ -5,92 +5,118 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Services</title>
-  <style>
-    .bg-200 {
-      background-color: #f0f0f0; /* Light gray background */
-      padding-top: 4rem; /* Adjust top padding */
-      padding-bottom: 5rem; /* Adjust bottom padding */
-    }
-    
-    
-    .x_wd_apps_switched {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .x_wd_app_entry {
-      text-decoration: none; /* Remove underline from links */
-      color: inherit; /* Inherit text color */
-      display: block;
-      margin-bottom: 1.5rem; /* Adjust bottom margin */
-      text-align: center;
-    }
-    .x_wd_app_entry img {
-      width: 130px; /* Fixed width for app icons */
-      height: auto; /* Maintain aspect ratio */
-      display: block;
-      margin: 0 auto 0.5rem; /* Center and add bottom margin */
-      border-radius: 15px; /* Rounded corners */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    }
+ <style>
+ /* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    .x_wd_app_entry:hover img {
-      transform: scale(1.1); /* Increase icon size on hover */
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
-    }
+/* Ensure the body doesn't overflow horizontally */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
 
-    .x_wd_app_entry figcaption {
-      color: black;
-      font-weight: 600; /* Light gray text color */
-    }
-    @media (min-width: 576px) {
-      .x_wd_app_entry {
-        flex-basis: calc(33.3333% - 1rem); /* Three icons per row with spacing */
-        margin-right: 1rem; /* Right margin between icons */
-      }
-      
-    }
-    @media (min-width: 992px) {
-      .x_wd_app_entry {
-        flex-basis: calc(20% - 1rem); /* Five icons per row with spacing */
-      }
-    }
-    .arrow-container {
-      display: flex;
-      justify-content: flex-end;
-      margin-top: 2rem;
-    }
+.bg-200 {
+  background-color: #f0f0f0; /* Light gray background */
+  padding-top: 4rem; /* Adjust top padding */
+  padding-bottom: 5rem; /* Adjust bottom padding */
+  width: 100%; /* Ensure background fits within viewport */
+  margin: 0; /* Remove default margins */
+}
 
-    /* Remove hover effects */
-    a:hover,
-    .x_wd_app_entry:hover,
-    .x_wd_app_entry img:hover,
-    .x_wd_app_entry figcaption:hover {
-      text-decoration: none; /* No underline on hover */
-      color: inherit; /* Inherit text color on hover */
-    }
-    .x_wd_app_entry:hover img {
-      transform: scale(1.1); /* Increase icon size on hover */
-    }
+.x_wd_apps_switched {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    .x_wd_app_entry:hover figcaption {
-      font-size: 14px; /* Increase font size on hover */
-    }
+.x_wd_app_entry {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+  display: block;
+  margin-bottom: 1.5rem; /* Adjust bottom margin */
+  text-align: center;
+}
 
-    /* Optional: Smooth transition */
-    .x_wd_app_entry img,
-    .x_wd_app_entry figcaption {
-      transition: all 0.3s ease; /* Smooth transition over 0.3 seconds */
-    }
-    /* Tab Navigation */
-.nav-tabs {
-  border-bottom: 2px solid #007bff; /* Bottom border color */
+.x_wd_app_entry img {
+  width: 130px; /* Fixed width for app icons */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto 0.5rem; /* Center and add bottom margin */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.x_wd_app_entry:hover img {
+  transform: scale(1.1); /* Increase icon size on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.x_wd_app_entry figcaption {
+  color: black;
+  font-weight: 600; /* Light gray text color */
+}
+
+@media (min-width: 576px) {
+  .x_wd_app_entry {
+    flex-basis: calc(33.3333% - 1rem); /* Three icons per row with spacing */
+    margin-right: 0.5rem; /* Right margin between icons */
+    margin-left: 0.5rem; /* Left margin between icons */
+  }
+}
+
+@media (min-width: 992px) {
+  .x_wd_app_entry {
+    flex-basis: calc(20% - 1rem); /* Five icons per row with spacing */
+    margin-right: 0.5rem; /* Right margin between icons */
+    margin-left: 0.5rem; /* Left margin between icons */
+  }
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  margin-right: 1rem; /* Add margin to the right */
+}
+
+/* Remove hover effects */
+a:hover,
+.x_wd_app_entry:hover,
+.x_wd_app_entry img:hover,
+.x_wd_app_entry figcaption:hover {
+  text-decoration: none; /* No underline on hover */
+  color: inherit; /* Inherit text color on hover */
+}
+
+.x_wd_app_entry:hover img {
+  transform: scale(1.1); /* Increase icon size on hover */
+}
+
+.x_wd_app_entry:hover figcaption {
+  font-size: 14px; /* Increase font size on hover */
+}
+
+/* Optional: Smooth transition */
+.x_wd_app_entry img,
+.x_wd_app_entry figcaption {
+  transition: all 0.3s ease; /* Smooth transition over 0.3 seconds */
+}
+
+/* Tab Navigation */
+.nav-tabs { /* Bottom border color */
+  border-radius: 10px;
+  margin-bottom: 0; /* Remove margin that may affect the view */
+  width: 100%; /* Ensure it fits within viewport */
 }
 
 .nav-tabs .nav-item {
-  margin-bottom: -1px; /* Ensure no gap between items and border */
+  margin-bottom: 1px; /* Ensure no gap between items and border */
 }
 
 .nav-tabs .nav-link {
@@ -100,6 +126,7 @@
   color: #007bff; /* Tab text color */
   font-weight: 600; /* Tab font weight */
   transition: all 0.3s ease; /* Smooth transition for hover */
+  margin-bottom: 0; /* Remove bottom margin */
 }
 
 .nav-tabs .nav-link:hover {
@@ -108,8 +135,11 @@
 
 .nav-tabs .nav-link.active {
   background-color: white; /* Active tab background color */
-  border-bottom: 2px solid #007bff; /* Active tab bottom border color */
+  border: 0px solid black; /* Active tab bottom border color */
+  border-radius: 15px; /* Increase upper left border radius */
+   /* Increase upper right border radius */
   color: #000; /* Active tab text color */
+  margin-bottom: 2px; /* Remove bottom margin */
 }
 
 /* Optional: Smooth transition for active tab */
@@ -123,30 +153,32 @@
   .nav-tabs .nav-link {
     font-size: 14px; /* Reduce font size for smaller screens */
   }
-  .service{
-      padding-left: 22px;
-      padding-right: 22px;
-
-    }
+  .service {
+    padding-left: 10px; /* Adjust padding */
+    padding-right: 10px; /* Adjust padding */
+  }
 }
 
-  </style>
+.flipped-horizontal {
+  transform: scaleX(-1);
+}
+
+.services-title {
+  font-family: sans-serif; /* Beautiful font style */
+  font-weight: 600; /* Font weight of 600 */
+  font-size: 2.2rem; /* Enlarge the text */
+  color: #333; /* Color of the text */
+  margin-bottom: 0.5rem; /* Adjust bottom margin */
+}
+
+</style>
+
+
+
   <!-- Bootstrap CSS link (assuming you're using Bootstrap) -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<style>
-  .flipped-horizontal {
-  transform: scaleX(-1);
-}
-.services-title {
-      font-family: sans-serif; /* Beautiful font style */
-      font-weight: 600; /* Font weight of 600 */
-      font-size: 2.2rem; /* Enlarge the text */
-      color: #333; /* Color of the text */
-      margin-bottom: 0.5rem; /* Adjust bottom margin */
-    }
 
-</style>
 <body>
 
 <section id="services" class="bg-200 o_colored_level pt-4 pt-md-6 pb-7" data-oe-shape-data="{'shape':'illustration/doodle/03'}">
@@ -521,11 +553,11 @@
             </div>
           </div>
 
-        <div class="arrow-container">
+        <!-- <div class="arrow-container">
           <a href="/zoho">
             <img src="https://odoocdn.com/openerp_website/static/src/img/arrows/secondary_arrow_sm_03.svg" width="40px" class="align-top ms-2 me-3 flipped-horizontal" alt="More apps arrow" loading="lazy">
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
